@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #002029;
+    height: 50px;
+}
+.navLi{
+    margin: 0 5px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.textHeader{
+    margin-top: 5px;
+    color: aliceblue;
+}
+.imgLi{
+    width: 35px;
+    height: 35px;
+}
+
+.container-product{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.containerImgProduct{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.imggg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardProduct{
+
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#00607a ;
+    
+}
+.cardProduct:hover{
+    width: 200px;
+    background-color: #00303d;
+    transition: all 1s;
+
+
+}
+
+.tittleCard{
+    text-align: center;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.textCard{
+    text-transform: capitalize;
+    font-size: 23px;
+    color: aliceblue;
+}
+
+.botonAgregar{
+    border: none;
+    text-transform: uppercase;
+    background-color: #002029;
+    color:aliceblue;
+    width: 100%;
+    height: 45px;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+.botonAgregar:hover{
+
+
+    transition: all 0.5s ;
+    background-color: #00607a;
+    letter-spacing: 3px;
+}
+
+/*modal carrito*/
+
+.ventanaCarrito{
+    width: 80%;
+    height: 500px;
+    background-color: #002029;
+    margin-left: 10%;
+    margin-top: -490px;
+    top: 0;
+    position: sticky;
+    border-radius: 10px;
+    border: 3px solid #000;
+    overflow-y: auto;    
+}
+
+.headerModal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 2px solid #004052;
+    margin-bottom: 20px;
+}
+
+.tittleModal{
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.x{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #002029;
+    border: none;
+}
+.x:hover{
+    color: #00607a;
+}
+
+.containerContentModal{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+.textModal{
+    font-size: 22px;
+    width: 130px;
+    
+}
+.botonEliminar{
+    cursor: pointer;
+    background-color: #002029;
+    border: none;
+    width: 25px;
+    height: 30px;
+    color: #fff;
+}
+.botonEliminar:hover{
+
+    color: #00607a;
+}
+.footerModal{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 3px solid #004052;
+    padding-top: 25px;
+}
+
+.vaciarCarrito{
+    border: none;
+    color:aliceblue;
+    background-color: #005066;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+    font-size: 13px;
+}
+
+.vaciarCarrito:hover{
+    background-color: #00303d;
+    transition: all 1s;
+    border: 1px solid #005066;
+}
+.totalCarrito{
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.containerModalContador{
+    color: white;
+
+    margin-top: -20px;
+    margin-left: 35px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: #005066;
+    color: #d9d9d9;
+    border-radius: 50%;
+    font-size: 15px;
+
+}
+
+.containerOrdenPrecios{
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 5px;
+}
+.tituloOrden{
+    font-size: 13px;
+    padding-top: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.ordenPrecio{
+width: 80px;
+height: 30px;
+background-color: #002029;
+color: #fff;
+font-size: 10px;
+border: none;
+border-radius: 10px;
+margin: 5px 1px;
+}
+
+.ordenPrecio:hover{
+    background-color: #00607a;
+    transition: all 0.5s;
+}
